@@ -1,0 +1,101 @@
+/*all common css start*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/* all common css end  */
+
+.sample {
+    height: 690px;
+    background-color: antiquewhite;
+    position: relative;
+}
+.boxone{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.boxtwo{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.boxthree{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.boxfour{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.boxfive{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    position: absolute;
+    top:0;
+    left:50%; 
+    transform: translateX(-50%);
+}
+.boxsix{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    position: absolute;
+    top:50%;
+    right:0; 
+    transform: translateY(-50%);
+}
+.boxseven{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+}
+.boxeight{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    position: absolute;
+    bottom:50%;
+    left:0; 
+    transform: translateY(50%);
+}
+.boxnine{
+    height: 250px;
+    width: 450px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 10px;
+
+}
+.boxnineone{
+    height: 100px;
+    width: 100px;
+    background-color: red ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
